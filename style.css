@@ -1,25 +1,55 @@
-.flex-container{
+.flex-container {
   display: flex;
-  flex-direction:row;
   flex-wrap: wrap;
-  justify-content: space-around;
-   align-content: centre; 
+  justify-content: center;
+  max-width: 100%;
 }
 
-.flex-item{
- 
-  width: 50px;
-    height: 200px;
-    flex-grow: 0.5;
-    flex-shrink: 0;
-    flex-basis: 0;
-  justify-content: center; 
-/*   background-color:grey; */
-  text-align:center;
-  
+#title {
+  padding-top: 1em;
+  text-align: right;
+  flex: 1 1 100%;
+  text-decoration: underline;
+  color: red;
 }
 
-.quotetext{
-  font-size:2em;
+.boxes {
+  text-align: center;
+  max-height: 300px;
+}
 
+#quotemarks {
+  font-size: 8em;
+  text-align: right;
+  max-width: 200px;
+  max-height: 200px;
+  background-color: red;
+  flex: 0 4 2em;
+}
+
+#quotes {
+  flex: 2 2 50%;
+  padding-top: 10em;
+  max-width: 500px;
+}
+
+#quotetext {
+  font-size: 1.5em;
+  font-family:
+}
+
+#quoteauthor {
+  font-family: 'Merriweather', light, serif;
+  font-style: light;
+}
+
+#mytwittericon {
+  flex: 0 1 100%;
+  padding-top: 2em;
+  padding-left: 4em;
+}
+
+#mytwitterbutton {
+  border-radius: 5px;
+  color: red;
 }
