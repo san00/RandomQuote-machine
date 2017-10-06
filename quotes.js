@@ -17,16 +17,10 @@ $(document).ready(function() {
       url: 'https://andruxnet-random-famous-quotes.p.mashape.com/cat=',
       success: function(response) {
 
-        var obj = JSON.parse(response);
-        console.log(obj);
-
-        $('#quotetext').text('"' + obj.quote + '"' + "  ");
-        $('#quoteauthor').text("-" + " " + obj.author);
-
-        console.log('#quotetext');
+        $('#quotetext').text('"' + response.quote + '"' + "  ");
+        $('#quoteauthor').text("-" + " " + response.author);
       }
     });
-
   });
 
   //function to tweet quotes.
