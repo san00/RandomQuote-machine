@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  flex-direction: row wrap;
+  text-align: left;
+}
+
+h3 {
+  padding: 2px;
+  text-decoration: underline;
+}
+
+.quotes-container {
+  display: flex;
+  margin: 3em 2em 2em 2em;
+  text-align: center;
+  border: 5px solid #F9D47B;
+  padding: 1.5em;
+  max-width: 100%;
+}
+
+hr {
+  width: 20%;
+  border: 1px solid #F9D47B;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  padding: 8px;
+  background-color: #faeede;
+}
+
+#quote-text {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+}
+
+#quote-author {
+  text-align: center;
+  font-weight: 100;
+}
+
+#quotes-button {
+  width: 144px;
+  height: 48px;
+  margin: 1.5em 0em 1.5em 0em;
+  /*background-color: #fab77a;*/
+  border-radius: 3px;
+  border: solid 2px #6496c8;
+  /*border: 1px solid green;*/
+
+}
+
+#quotes-button:hover {
+  border-color: #346392;
+}
+
+#quotes-button:active {
+  /*border-color: #F9D47B;*/
+  background-color: #F9D47B;
+}
+
+#quotes-button:focus {
+  color: #f00;
+}
+
+#tweet-button {
+  justify-content: space-between;
+}
+
+/*small mobile devices*/
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 1em;
+  }
+  #quotetext {
+    padding-top: 0.5em;
+  }
+  #quotebutton {}
+}
+
+/*touch targets, anything that users may touch to control,
+ min sizing 48 px, buttons etc*/
+
+/*makes text responsive*/
+
+/*body{
+
+  font-size: 100%;,
+
+
+}*/
