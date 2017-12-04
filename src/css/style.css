@@ -1,5 +1,5 @@
 body{
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .header {
   display: flex;
@@ -73,8 +73,22 @@ hr {
   opacity: 0.6;
 }
 
+#tweet-button:active {
+  background-color: #0084b4;
+}
+
 #tweet-text {
   margin: -3px;
   font-size: 14px;
   padding-bottom: 5px;
+}
+
+
+.my-social{
+  width: 100%;
+  position:relative;
+  bottom: 0;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px;
 }
