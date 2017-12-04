@@ -1,3 +1,6 @@
+body{
+  padding-top: 5px;
+}
 .header {
   display: flex;
   flex-direction: row wrap;
@@ -47,11 +50,8 @@ hr {
   width: 144px;
   height: 48px;
   margin: 1.5em 0em 1.5em 0em;
-  /*background-color: #fab77a;*/
   border-radius: 3px;
   border: solid 2px #6496c8;
-  /*border: 1px solid green;*/
-
 }
 
 #quotes-button:hover {
@@ -59,38 +59,36 @@ hr {
 }
 
 #quotes-button:active {
-  /*border-color: #F9D47B;*/
   background-color: #F9D47B;
 }
 
-#quotes-button:focus {
-  color: #f00;
-}
-
 #tweet-button {
-  justify-content: space-between;
+  margin-top: 20px;
 }
 
-/*small mobile devices*/
-
-@media only screen and (max-width: 400px) {
-  body {
-    font-size: 1em;
-  }
-  #quotetext {
-    padding-top: 0.5em;
-  }
-  #quotebutton {}
+#tweet-button:hover {
+  background-color: #c0deed;
+  border-radius: 3px;
+  padding: 5px;
+  opacity: 0.6;
 }
 
-/*touch targets, anything that users may touch to control,
- min sizing 48 px, buttons etc*/
+#tweet-button:active {
+  background-color: #0084b4;
+}
 
-/*makes text responsive*/
+#tweet-text {
+  margin: -3px;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
 
-/*body{
 
-  font-size: 100%;,
-
-
-}*/
+.my-social{
+  width: 100%;
+  position:relative;
+  bottom: 0;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px;
+}
