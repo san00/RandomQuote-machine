@@ -1,55 +1,57 @@
-.flex-container {
+.header {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row wrap;
+  text-align: left;
+}
+
+h3 {
+  padding: 2px;
+  text-decoration: underline;
+}
+
+.quotes-container {
+  display: flex;
+  margin: 3em 2em 2em 2em;
+  text-align: center;
+  border: 5px solid #F9D47B;
+  padding: 1.5em;
   max-width: 100%;
 }
 
-#title {
-  padding-top: 1em;
-  text-align: right;
-  flex: 1 1 100%;
-  text-decoration: underline;
-  color: red;
+hr {
+  width: 20%;
+  border: 1px solid #F9D47B;
 }
 
-.boxes {
+.content {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  padding: 8px;
+  background-color: #faeede;
+}
+
+#quote-text {
   text-align: center;
-  max-height: 300px;
-}
-
-#quotemarks {
-  font-size: 8em;
-  text-align: right;
-  max-width: 200px;
-  max-height: 200px;
-  background-color: red;
-  flex: 0 4 2em;
-}
-
-#quotes {
-  flex: 2 2 50%;
-  padding-top: 10em;
-  max-width: 500px;
-}
-
-#quotetext {
   font-size: 1.5em;
-  font-family:
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
 }
 
-#quoteauthor {
-  font-family: 'Merriweather', light, serif;
-  font-style: light;
+#quote-author {
+  text-align: center;
+  font-weight: 100;
 }
 
-#mytwittericon {
-  flex: 0 1 100%;
-  padding-top: 2em;
-  padding-left: 4em;
+#quotes-button {
+  width: 144px;
+  height: 48px;
+  margin: 1.5em 0em 1.5em 0em;
+  border-radius: 0.5em;
+  border: solid 1px #6496c8;
+  border: 1px solid green;
 }
 
-#mytwitterbutton {
-  border-radius: 5px;
-  color: red;
+#tweet-button {
+  justify-content: space-between;
 }
