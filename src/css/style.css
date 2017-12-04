@@ -47,11 +47,50 @@ hr {
   width: 144px;
   height: 48px;
   margin: 1.5em 0em 1.5em 0em;
-  border-radius: 0.5em;
-  border: solid 1px #6496c8;
-  border: 1px solid green;
+  /*background-color: #fab77a;*/
+  border-radius: 3px;
+  border: solid 2px #6496c8;
+  /*border: 1px solid green;*/
+
+}
+
+#quotes-button:hover {
+  border-color: #346392;
+}
+
+#quotes-button:active {
+  /*border-color: #F9D47B;*/
+  background-color: #F9D47B;
+}
+
+#quotes-button:focus {
+  color: #f00;
 }
 
 #tweet-button {
   justify-content: space-between;
 }
+
+/*small mobile devices*/
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 1em;
+  }
+  #quotetext {
+    padding-top: 0.5em;
+  }
+  #quotebutton {}
+}
+
+/*touch targets, anything that users may touch to control,
+ min sizing 48 px, buttons etc*/
+
+/*makes text responsive*/
+
+/*body{
+
+  font-size: 100%;,
+
+
+}*/
