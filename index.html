@@ -3,34 +3,36 @@
 
 <head>
   <meta charset="utf-8">
-  <title>random quotes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Quotes</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" charset="utf-8"></script>
-  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
-  <div class="flex-container">
-    <div class="boxes" id="title">
-      <p>Random quote machine</p>
-    </div>
+  <header class="title">
+    <h3>Random Famous Quotes</h3>
+  </header>
 
-    <div class="boxes">
-      <p id="quotemarks">“</p>
+  <section class="quotes-container">
+    <div class="content">
+      <p id="quote-text"></p>
+      <p id="quote-author"></p>
+      <hr>
+      <button id="quotes-button">next quote</button>
+      <footer><button id="tweet-button">
+            <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+          </button></footer>
     </div>
+  </section>
 
-    <div class="boxes" id="quotes">
-      <p id="quotetext"></p>
-      <p id="quoteauthor"></p>
-      <button id="quotebutton"> Next quote</button>
-    </div>
+  <footer>
+    <p>Quotes from here <a href="https://github.com/san00" title="My portfolio"> By San &copy; 2017 </a>
+    </p>
+  </footer>
 
-    <div class="boxes" id="mytwittericon">
-      <button id="mytwitterbutton"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
-      </button>
-    </div>
-  </div>
   <script src="quotes.js" charset="utf-8"></script>
 </body>
 
