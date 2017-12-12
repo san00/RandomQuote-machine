@@ -21,6 +21,12 @@
     "eslint-plugin-standard": "^3.0.1",
     "parallelshell": "^3.0.2"
   },
+  "eslintConfig": {
+        "env": {
+            "jquery": true,
+            "es6": true
+        }
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/san00/build-a-random-quote-machine.git"
