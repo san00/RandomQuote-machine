@@ -1,5 +1,21 @@
-# build-a-random-quote-machine
-FCC Intermediate front end project - js, jQuery, html, css
+#  Random-Quote-Machine
 
-My first project using jQuery and api's.
-The functionality works, although visually the page still needs work. Adding the files to gihub is a way for me to document my process so I can look back and see what things were changed/improved. 
+An app that randomly displays famous movie quote's
+
+### User story
+Click a button to show a new random quote and allow users to tweet it.
+
+Create an app functionally similar to this:https://codepen.io/freeCodeCamp/full/ONjoLe
+
+### Live Preview
+
+[ See this repo live here] (https://san00.github.io/RandomQuote-machine/)
+
+### Screenshot
+![](src/images/random quote - mobile viewport.png)
+
+### Technologies
+
+* JavaScript
+* JQuery
+* HTML/CSS
