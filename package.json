@@ -1,40 +1,22 @@
 {
-  "name": "buildtool",
+  "name": "simpleboiler",
   "version": "1.0.0",
-  "description": "display random quotes",
+  "description": "gulp boilerplate",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint src/js",
-    "serve": "browser-sync start --server --files 'src/css/*.css, src/js/*.js'",
-    "watch:css": "onchange 'src/css/*.css' -- npm run build:css",
-    "watch:js": "onchange 'src/js/*.js' -- npm run build:js",
-    "watch:all": "parallelshell 'npm run serve' 'npm run watch:css' 'npm run watch:js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "san00",
+  "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "eslint": "^4.13.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "parallelshell": "^3.0.2"
-  },
-  "eslintConfig": {
-        "env": {
-            "jquery": true,
-            "es6": true
-        }
-    },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/san00/build-a-random-quote-machine.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/san00/build-a-random-quote-machine/issues"
-  },
-  "homepage": "https://github.com/san00/build-a-random-quote-machine#readme"
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1"
+  }
 }
